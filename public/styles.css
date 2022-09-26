@@ -14,7 +14,7 @@ body{
     padding: 10px 20px;
 }
 
- #sec_1_header{
+ #header1{
     display:flex;
     flex-flow: row wrap;
     justify-content: space-around;
@@ -23,7 +23,7 @@ body{
     height: 50%;
 }
 
-#sec_2_Header{
+#header2{
     display:flex;
     flex-flow: row wrap;
     justify-content: space-around;
@@ -68,6 +68,27 @@ body{
     padding-left: 5px;
     float:left;
 }
+#search_bar{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    width: 45%;
+    height: 100%;
+    padding: 10px 0px;
+}
+
+
+#compra_en_cuotas{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    width: 35%;
+    height: 100%;
+    padding: 10px 0px;
+}
 
 #lupita{
     display:flex;
@@ -80,20 +101,11 @@ body{
     color: #03264C;
 }
 
-#compra_en_cuotas{
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-items: center;
-    width: 35%;
-    height: 100%;
-    padding: 10px 0px;
-}
-
 #icono_compra_en_cuotas{
     display:flex;
     order:-1;
 }
+
 
 #p1Header{
     display: flex;
@@ -112,6 +124,16 @@ body{
     width:50%;
     height: 100%;
 }
+#loginBar{
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    align-items: center;
+    box-sizing: border-box;
+    width:50%;
+    height: 100%;
+    padding-left: 50px;
+}
 
 .listas_de_navegacion{
     display:flex;
@@ -120,6 +142,11 @@ body{
     align-items: center;
     box-sizing: border-box;
     width:100%;
+}
+
+.item_barra_header a{
+    color: #03264C;
+    text-decoration: none;
 }
 
 .listas_de_navegacion li {
